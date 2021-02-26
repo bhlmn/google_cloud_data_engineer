@@ -43,3 +43,8 @@ Here is the general day-to-day/week-to-week approach for this project:
 4. Create a system of spaced repetition learning notes so that I can remember what I've learned, but I haven't figured out what exactly that is going to look like yet ...
 
 One key thing I am really curious about is showing myself (and setting an example to others) what I can accomplish with just five hours a week. All it takes is focussed, intentive study and a plan. Surely everyone has five hours a week, right?
+
+## Work log
+
+**February 26, 2021** - X hours. Updated this README, constructed a loose project plan and daily habit plan to be able to accomplish the project. 30 minutes of Coursera work.
+**February 25, 2021** - 2 hours. Created the repo, made it through 1.5 hours of the Google Data Engineering Coursera course.
