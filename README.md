@@ -37,7 +37,7 @@ Here is the general day-to-day/week-to-week approach for this project:
 3. The hour of work will be structured as follows:
     1. Coursework/reading for 30 minutes.
     2. Five minute break.
-    3. Building something for 30 minutes. This could either be labs
+    3. Building something for 30 minutes. This could either be labs or a project that applies what I am learning.
     4. Five minute break
     5. Summarize what I did in the daily log, save and commit notes/code, then on with my day!
 4. Create a system of spaced repetition learning notes so that I can remember what I've learned, but I haven't figured out what exactly that is going to look like yet ...
