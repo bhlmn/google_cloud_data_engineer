@@ -68,8 +68,6 @@ To dos (to cover in blogs):
 - [ ] Run a PySpark jobs in Dataproc (spinning up and shutting down clusters when done)
 - [ ] Put the PySpark output back into Cloud SQL or BigQuery.
 
-Cloud SQL password lo8kEAx5MpuG7roi
-
 ## Lab -- recommendations using PySpark
 1. Create a Cloud SQL instance
 2. Connect using cloud shell and create tables
@@ -142,8 +140,6 @@ gsutil cat gs://$DEVSHELL_PROJECT_ID/accommodation.csv
 6. Launch Dataproc
 - [ ] Create and spin down a cluster using the SDK.
 * Find the IP addresses of the Dataproc cluster machines and give them access to the Cloud SQL instance.
-
-34.69.206.132
 
 7. Copy the ML model and set the CloudSQL IP address and password (in the python file)
 
