@@ -46,5 +46,7 @@ One key thing I am really curious about is showing myself (and setting an exampl
 
 ## Work log
 
-* **February 26, 2021** - 1.5 hours. Updated this README, constructed a loose project plan and daily habit plan to be able to accomplish the project. 30 minutes of Coursera work.
+* **March 1,2021** - 1.5 hours. Coursera course discussed using Cloud SQL, Cloud Storage, and Cloud DataProc to create a recommendation engine and a relational database to populate house rental recommendations to users. Completed the lab.
+* **February 27, 2021** - 30 minutes. Began a post on working with JSON-formatted data in BigQuery.
+* **February 26, 2021** - 2 hours. Updated this README, constructed a loose project plan and daily habit plan to be able to accomplish the project. 30 minutes of Coursera work. Restructured BigQuery notes.
 * **February 25, 2021** - 2 hours. Created the repo, made it through 1.5 hours of the Google Data Engineering Coursera course.
