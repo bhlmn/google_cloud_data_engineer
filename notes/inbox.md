@@ -156,3 +156,43 @@ Created tables and explored the schema with SQL
 Ingested data from CSVs
 Edited and ran a Spark ML job on Dataproc
 Viewed prediction results
+
+## 20210302
+
+* BigQuery is two services in one, a data storage/warehouse solotion, and a fast SQL engine!
+* Designed for geospatial analysis
+* In the BigQuery web UI you can control click on the table in a query to take you to that table in the table/dataset explorer.
+* In the web UI you can also select fields in the table preview and it will add them to that query.
+* Cloud Dataprep for some basic statistics for your BigQuery data
+* BigQuery has a scheduler!!
+* Use BigQuery Query Engine on csv files in drive or somewhere else on the web.
+* BigQuery arrays!!
+* STRUCT data types
+* GIS functions ... https://cloud.google.com/bigquery/docs/reference/standard-sql/geography_functions
+* GLobal surface summary of the day (NOAA) and GFS model and HRR model. NOAA lightning strikes!
+* BigQuery Geo Viz
+* BigQuery ML! https://cloud.google.com/bigquery-ml/docs:
+    * ETL
+    * Preprocess
+    * `create model`
+    * `ml.evaluate`
+    * `ml.weights` -- inspect what the model learned.
+    * `ml.predict`
+
+BQ ML cheatsheet:
+* label - alias a column as `label` or specify columns in OPTIONS using `input_label_cols`
+* feature - passed through to the model as part of the select statement
+``` sql
+select * from ml.feature_info(model {dataset}.{model_name})
+```
+* model - an object created inside the BQ dataset
+* model types - e.g., linear or logistic regression
+``` sql
+create or replace model {dataset}.{model_name}
+options(model_type='{type}') as 
+<training_dataset>
+```
+* training progress - `select * from ml.training_info(model {dataset}.{model_name})`
+* inspect weights - `select * from ml.weights(model {dataset}.{model_name}, (<query>))`
+* evaluate
+* predict
