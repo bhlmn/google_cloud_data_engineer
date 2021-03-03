@@ -46,6 +46,7 @@ One key thing I am really curious about is showing myself (and setting an exampl
 
 ## Work log
 
+* **March 3, 2021** - 1 hour. Explored BigQuery public datasets, looking for something where I could explore BigQuery ML, but no home runs yet.
 * **March 2, 2021** - 1 hour. Coursera course discussing BigQuery and BigQuery ML.
 * **March 1, 2021** - 1.5 hours. Coursera course discussed using Cloud SQL, Cloud Storage, and Cloud DataProc to create a recommendation engine and a relational database to populate house rental recommendations to users. Completed the lab.
 * **February 27, 2021** - 30 minutes. Began a post on working with JSON-formatted data in BigQuery.
