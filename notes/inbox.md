@@ -196,3 +196,37 @@ options(model_type='{type}') as
 * inspect weights - `select * from ml.weights(model {dataset}.{model_name}, (<query>))`
 * evaluate
 * predict
+
+I learned some new SQL!
+
+``` sql
+with 
+    temp_table1 as (
+        select
+            count(col1) as total, 
+            count(distinct col1) as total_unique
+        from
+            table
+    ), 
+    temp_table2 as (
+        select
+            count(col1) as total_w_condition, 
+            count(distinct col1) as total_unique_w_condition
+        from
+            table
+        where
+            condition ...
+    )
+select
+    *
+from
+    temp_table1, 
+    temp_table2
+```
+
+``` sql
+select
+    * except(column_i_dont_want)
+from
+    table
+```
