@@ -46,6 +46,7 @@ One key thing I am really curious about is showing myself (and setting an exampl
 
 ## Work log
 
+* **March 5, 2021** - 30 minutes. Coursera course on data pipelines with Pub/Sub, Dataflow, and Data Studio.
 * **March 4, 2021** - 1 hour. Coursera lab on using BigQuery ML to predict whether a return visitor will make a purchase on an ecommerce site. Completed week 1 of GCP Big Data and ML Fundamentals.
 * **March 3, 2021** - 1 hour. Explored BigQuery public datasets, looking for something where I could explore BigQuery ML, but no home runs yet. I think tomorrow I'll just look at the `ml_datasets` dataset and cook something up to start.
 * **March 2, 2021** - 1 hour. Coursera course discussing BigQuery and BigQuery ML.

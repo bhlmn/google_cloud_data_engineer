@@ -230,3 +230,16 @@ select
 from
     table
 ```
+
+## Cloud Pub/Sub
+* Streaming data in, and have services subscribe to these data. Pub/Sub stands for Publisher/Subscriber. It takes messages in, and ensures that each message gets passed at least once to subscribers.
+* There can be zero, one, or many publishers for a Pub/Sub topic, and zero, one, or many subscribers for that topic.
+* In short, Pub/Sub is a framework for handling incoming messages and/or events and allowing processes or services to subscribe to those events.
+
+## Cloud Dataflow
+* This is GCP's Apache Beam implementation
+* It provides a scalable framework for data pipelines.
+* There are lots of Dataflow templates for different data streaming scenarios: https://cloud.google.com/dataflow/docs/guides/templates/provided-streaming#cloudpubsubtobigquery.
+
+# GCP Pipeline
+Data --> Pub/Sub --> Dataflow --> BigQuery --> Data Studio/Tableau
