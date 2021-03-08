@@ -241,5 +241,25 @@ from
 * It provides a scalable framework for data pipelines.
 * There are lots of Dataflow templates for different data streaming scenarios: https://cloud.google.com/dataflow/docs/guides/templates/provided-streaming#cloudpubsubtobigquery.
 
-# GCP Pipeline
+## GCP Pipeline
 Data --> Pub/Sub --> Dataflow --> BigQuery --> Data Studio/Tableau
+
+## Pub/Sub --> Dataflow --> BigQuery Lab
+
+``` bash
+# create a BQ dataset
+bq mk dataset_name
+# create a BQ table with partitioning and a specific schema
+bq mk \
+    --time_partitioning_field timestamp_col \
+    --schema \
+        string_col:string, \
+        integer_col:integer, \
+        float_col:float, \
+        timestamp_col:timestamp \
+    -t dataset_name.table_name
+# create a GCS bucket
+gsutil mb gs://bucket_name
+```
+
+Google Cloud provides plenty of templates for creating Dataflow jobs. See https://cloud.google.com/dataflow/docs/guides/templates/provided-templates. In this one we used the template for streaming from a Pub/Sub topic into BigQuery: https://cloud.google.com/dataflow/docs/guides/templates/provided-streaming#cloudpubsubtobigquery.
