@@ -46,6 +46,7 @@ One key thing I am really curious about is showing myself (and setting an exampl
 
 ## Work log
 
+* **March 9, 2021** - 45 minutes. Worked in open weather forecasts, grabbing data from thredds and parsing it.
 * **March 8, 2021** - 1 hour. Coursera lab on using Dataflow to stream messages from a NY taxi Pub/Sub topic into BigQuery.
 * **March 5, 2021** - 30 minutes. Coursera course on data pipelines with Pub/Sub, Dataflow, and Data Studio.
 * **March 4, 2021** - 1 hour. Coursera lab on using BigQuery ML to predict whether a return visitor will make a purchase on an ecommerce site. Completed week 1 of GCP Big Data and ML Fundamentals.
