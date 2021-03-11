@@ -45,7 +45,7 @@ Here is the general day-to-day/week-to-week approach for this project:
 One key thing I am really curious about is showing myself (and setting an example to others) what I can accomplish with just five hours a week. All it takes is focussed, intentive study and a plan. Surely everyone has five hours a week, right?
 
 ## Work log
-
+* **March 11, 2021** - 40 minutes. Coursera course learning on ML on unstructured datasets and learning how to do ML on GCP in three different ways: pre-built AI services, modifying a pre-built AI with AutoML, and creating my own models with Keras or BigQuery ML.
 * **March 9, 2021** - 45 minutes. Worked in open weather forecasts, grabbing data from thredds and parsing it.
 * **March 8, 2021** - 1 hour. Coursera lab on using Dataflow to stream messages from a NY taxi Pub/Sub topic into BigQuery.
 * **March 5, 2021** - 30 minutes. Coursera course on data pipelines with Pub/Sub, Dataflow, and Data Studio.

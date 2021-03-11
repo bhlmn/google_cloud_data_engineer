@@ -89,3 +89,23 @@ from
 
 ## Public Datasets
 Google Cloud hosts public datasets for analytical exploration and ingestion into machine learning models: https://cloud.google.com/public-datasets/.
+
+## Unstructured ML in the cloud with AutoML
+Google move mirror!
+Deep vision API is pretty cool!
+
+Three approaches to AI:
+* Use pre-built AI
+* Customize pre-built models
+* Build a model yourself
+
+You can use google translate in Google Sheets!
+`=googletranslate('text', 'en', 'sp')`
+
+AutoML Vision has a GUI interface ... no code necessary. So incredibly cool.
+
+AutoML Natural Language could be used on search terms to on the no results screen!
+
+TODO: Look at Google Clouds AI services and think about how they could be used to enhance HealthSparq One
+
+Star or fork the GCP raining-data-analyst repo
