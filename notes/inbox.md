@@ -263,3 +263,31 @@ gsutil mb gs://bucket_name
 ```
 
 Google Cloud provides plenty of templates for creating Dataflow jobs. See https://cloud.google.com/dataflow/docs/guides/templates/provided-templates. In this one we used the template for streaming from a Pub/Sub topic into BigQuery: https://cloud.google.com/dataflow/docs/guides/templates/provided-streaming#cloudpubsubtobigquery.
+
+In addition to learning BigQuery ML, play with each of the AI services and with Cloud AutoML.
+
+## Cloud AutoML lab
+Apparently the goal will be to build off of the Cloud Vision API to detect different types of clouds!
+
+Here's what we are doing:
+* Enable the AutoML Vision API
+* Copy training images to a GS bucket
+* Specify the type of AutoML Vision task:
+    * single classification (predict a single label from two or more)
+    * multi-classification (predict multiple labels from many)
+    * object detection (predict multiple labels and where they are in the image)
+* Create an AutoML Vision training dataset, which is of the form:
+
+``` text
+[set,] filepath, label
+```
+So this would look like (note no headers):
+```
+TRAIN,gs://bucket/file1.jpg,label1
+TRAIN,gs://bucket/file2.jpg,label2
+TEST,gs://bucket/file3.jpg,label1
+```
+I think it is really interesting that the path is given to the images in the dataset, that's it.
+
+* Look in the images tab to inspect them. Correct any images that appear to be mis-labeled. Or remove labels from images so they won't be used in model training.
+* Go to the training tab. Note that images will automatically be split into train, validation, and test sets.
